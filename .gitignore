@@ -1,0 +1,57 @@
+## OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Editors & IDEs
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.user
+
+## Build & Dependencies
+node_modules/
+[Bb]in/
+[Oo]bj/
+build/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+## Environment & Secrets
+.env
+.env.local
+*.secret
+*.pem
+*.key
+
+## Temporary files & drafts
+*.tmp
+*.log
+_tasks/
+_raw/
+_prompts/
+**/_tasks/
+**/_raw/
+**/_prompts/
+*.prompt
+*.prompt.md
+AGENTS.md
+GEMINI.md
+.agents/
+.agent/
+.cursorrules
+_defense.md
+*_defense.md
+_cheatsheet.md
+_*.md
+
+## Microsoft Office temp files
+~$*.doc*
+~$*.docx
